@@ -15,7 +15,7 @@ you need to store the dates in availableDates  Array in the project.
 
 
 please Check the screen Shots  
-[alt text](/Nov.png "In NOV some dates are available and some dates are booked based on that difrenctiated with colors")
+[alt text](file:///Users/developer1/Desktop/Nov.png "In NOV some dates are available and some dates are booked based on that difrenctiated with colors")
 
 [alt text](Oct.png "In oct some dates are available and some dates are booked based on that difrenctiated with colors")
 
