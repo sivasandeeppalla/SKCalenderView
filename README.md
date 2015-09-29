@@ -14,10 +14,12 @@ How to use
 you need to store the dates in availableDates  Array in the project.
 
 
+please Check the screen Shots  
+![alt text](screenshots/Nov.png "In NOV some dates are available and some dates are booked based on that difrenctiated with colors")
 
+![alt text](screenshots/Oct.png "In oct some dates are available and some dates are booked based on that difrenctiated with colors")
 
-
-
+![alt text](screenshots/Sep.png "IN SEP  no dates are avaliable  ")
 
 
 
