@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UILabel *month_Name;
+- (IBAction)nextBtn:(UIButton *)sender;
+- (IBAction)previousBtn:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UICollectionView *calenderColl;
 @end
 
