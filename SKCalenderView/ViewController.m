@@ -39,9 +39,19 @@
     DayslistArray=[[NSMutableArray alloc]initWithObjects:@"Sun",@"Mon",@"Tue",@"Wed",@"Thu",@"Fri",@"Sat", nil];
     
     DateInCalender=1;
-    //SelectDateArrayFormCalender=[[NSMutableArray alloc]init];
+    SelectDateArrayFormCalender=[[NSMutableArray alloc]init];
     
-    AvalableDates=[[NSMutableArray alloc]initWithObjects:@"30/09/2015",
+    AvalableDates=[[NSMutableArray alloc]initWithObjects:
+                   @"01/09/2015",
+                   @"02/09/2015",
+                   @"03/09/2015",
+                   @"04/09/2015",
+                   @"05/09/2015",
+                   @"06/09/2015",
+                   @"07/09/2015",
+                   @"08/09/2015",
+                   @"09/09/2015",
+                @"30/09/2015",
                 @"01/10/2015",
                 @"02/10/2015",
                 @"03/10/2015",
@@ -86,8 +96,18 @@
                 @"25/11/2015", nil];
     
     
-    BookedDates=[[NSMutableArray alloc]initWithObjects:@"30/09/2015",
-                                 @"14/10/2015",
+    BookedDates=[[NSMutableArray alloc]initWithObjects:
+                 @"12/09/2015",
+                 @"13/09/2015",
+                 @"14/09/2015",
+                 @"15/09/2015",
+                 @"19/09/2015",
+                 @"20/09/2015",
+                 @"22/09/2015",
+                 @"23/09/2015",
+                 @"24/09/2015",
+                 @"30/09/2015",
+                 @"14/10/2015",
                  @"15/10/2015",
                  @"16/10/2015",
                  @"17/10/2015",
@@ -523,7 +543,7 @@
             NSLog(@"this is the index item %ld -------",(long)indexPath.item);
             
             
-            
+            NSLog(@"tadha0if %@",SelectDateArrayFormCalender );
             
             NSString *DateStr;
             NSString *MonthString;
